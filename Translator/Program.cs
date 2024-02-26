@@ -58,7 +58,7 @@ while (languagePairChoice.ToLower() != "exit")
                 {
                     Console.WriteLine("Enter the translation:");
                     string newTranslation = Console.ReadLine();
-                    translationManager.AddTranslation(originalWord, newTranslation, languagePairChoice == "1" ? "Georgian" : "Spanish", languagePairChoice == "1" ? englishGeorgianFilePath : englishSpanishFilePath);
+                    translationManager.AddTranslation(originalWord, newTranslation, languagePairChoice == "1" ? "G" : "S", languagePairChoice == "1" ? englishGeorgianFilePath : englishSpanishFilePath);
                     Console.WriteLine("Translation added.");
                 }
             }
